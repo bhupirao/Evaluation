@@ -1,0 +1,19 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(143, 143, 240);
+}
+a{
+    padding-top: 20px;
+    padding-right: 30px;
+}
+#voucher_list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
